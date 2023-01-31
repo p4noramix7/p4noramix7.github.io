@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Panoramix7</title>
+    <link>https://p4noramix7.github.io/posts/</link>
+    <description>Recent content in Posts on Panoramix7</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-es</language><atom:link href="https://p4noramix7.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primer Post!</title>
+      <link>https://p4noramix7.github.io/posts/primer-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p4noramix7.github.io/posts/primer-post/</guid>
+      <description>31/01/2022
+Primer post Ola, este é o blog do equipo Paronamix7, neste blog publicaremos toda a información da nosa participación en Cansat.
+IES Álvaro Cunqueiro
+- miguel</description>
+    </item>
+    
+  </channel>
+</rss>
