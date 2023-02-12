@@ -18,5 +18,17 @@ IES Álvaro Cunqueiro
 - miguel</description>
     </item>
     
+    <item>
+      <title>Reporte Diseños 3D</title>
+      <link>https://p4noramix7.github.io/posts/reporte-dise%C3%B1os-3d/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p4noramix7.github.io/posts/reporte-dise%C3%B1os-3d/</guid>
+      <description>REPORTE DISEÑOS 3D PARA EL DESAFÍO CANSAT 2023 12/02/2023
+Antón Pérez Blanco
+Alumno cursando 1º de Bachillerato en el IES Alvaro Cunqueiro
+Al principio me dispuse hacer la pieza de la antena en un programa de diseño 3D llamado Onshape, con el cuál tengo algo de experiencia porque tuve que hacer diseños en 3º de ESO. Para ello miré el diseño propuesto para la pieza de la antena en el PDF de las recomendaciones de la antena.</description>
+    </item>
+    
   </channel>
 </rss>
