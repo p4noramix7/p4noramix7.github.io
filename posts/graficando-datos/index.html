@@ -51,9 +51,8 @@
   <meta name="theme-color" />
   
   <meta name="description" content="Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite 10/05/2023
-Miguel Alonso Moyano
 El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de Python para leer el puerto.
-import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:" />
+import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para reducir la cantidad de información enviada al máximo:" />
   <meta
     name="author"
     content=""
@@ -112,9 +111,8 @@ import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readlin
   
   <meta property="og:title" content="Graficando Datos De La Sonda" />
 <meta property="og:description" content="Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite 10/05/2023
-Miguel Alonso Moyano
 El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de Python para leer el puerto.
-import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:" />
+import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para reducir la cantidad de información enviada al máximo:" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://p4noramix7.github.io/posts/graficando-datos/" />
 
@@ -122,11 +120,10 @@ import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readlin
   
   <meta itemprop="name" content="Graficando Datos De La Sonda">
 <meta itemprop="description" content="Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite 10/05/2023
-Miguel Alonso Moyano
 El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de Python para leer el puerto.
-import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:">
+import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para reducir la cantidad de información enviada al máximo:">
 
-<meta itemprop="wordCount" content="202">
+<meta itemprop="wordCount" content="201">
 
 
 
@@ -136,9 +133,8 @@ import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readlin
   <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Graficando Datos De La Sonda"/>
 <meta name="twitter:description" content="Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite 10/05/2023
-Miguel Alonso Moyano
 El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de Python para leer el puerto.
-import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:"/>
+import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para reducir la cantidad de información enviada al máximo:"/>
 
   
   
@@ -248,8 +244,6 @@ import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readlin
 
   <section><h2 id="graficando-datos-de-la-sonda-en-timpo-real-y-salvado-en-sqlite">Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite</h2>
 <p><em>10/05/2023</em></p>
-<p><strong>Miguel Alonso Moyano</strong></p>
-<p><img src="/imagen-dos-piezas.png" alt="Imagen de las dos piezas"></p>
 <p>El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de <a href="https://python.org/">Python</a> para leer el puerto.</p>
 <pre><code>import serial
 
@@ -257,7 +251,7 @@ PS = serial.Serial('COMX', 9600)
 while 1:
 	print(PS.readline())
 
-</code></pre><p>El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:</p>
+</code></pre><p>El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para reducir la cantidad de información enviada al máximo:</p>
 <p>Ex:</p>
 <pre><code>1216,-87.85,102384.57,18.31 
 
@@ -267,6 +261,7 @@ while 1:
 <img src="/Graficas.png" alt="Representación"></p>
 <p>Por último queda almacenar la información en una base de datos, para la gestion de esta usé <a href="https://sqlite.org/">SQLite</a>, y con un par de líneas en el código conseguí guardar los datos que llegan por serial, esto es útil para un posterior análisis de los datos.</p>
 <p><img src="/DB.png" alt="Base de datos"></p>
+<p><strong>- Miguel</strong></p>
 </section>
 
   
