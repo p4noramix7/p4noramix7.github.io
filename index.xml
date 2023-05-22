@@ -7,6 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-es</language><atom:link href="https://p4noramix7.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Graficando Datos De La Sonda</title>
+      <link>https://p4noramix7.github.io/posts/graficando-datos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://p4noramix7.github.io/posts/graficando-datos/</guid>
+      <description>Graficando Datos De La Sonda en Timpo Real y Salvado en SQLite 10/05/2023
+Miguel Alonso Moyano
+El siguiente paso después de montar la sonda es recibir los datos que esta envía por radio, para esto necesitamos escuchar el puerto serie de la antena de tierra en este caso usaré la librería serial de Python para leer el puerto.
+import serial PS = serial.Serial(&#39;COMX&#39;, 9600) while 1: print(PS.readline()) El output que se obtiene de este simple script es muy incómodo de leer, porque le llega la información de la antena que es la mínima posible para redicir la cantidad de información enviada al mínimo:</description>
+    </item>
+    
+    <item>
       <title>Primer Post!</title>
       <link>https://p4noramix7.github.io/posts/primer-post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
